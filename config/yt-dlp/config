@@ -1,0 +1,10 @@
+# yt-dlp config
+
+
+# video quality selection based on platform
+--extractor-args "youtube:format:bv*[ext=webm][height<=1080]+ba[ext=webm]/b[ext=webm]"
+--extractor-args "reddit:format:bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]"
+--extractor-args "tiktok:format:bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]"
+
+# output directory
+-o "~/Downloads/%(title)s.%(ext)s"

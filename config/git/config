@@ -1,0 +1,9 @@
+[user]
+	email = git@trbntwo.dev
+	name = trbntwo
+
+[core]
+	autocrlf = input
+
+[init]
+	defaultBranch = main

@@ -1,0 +1,11 @@
+[Unit]
+Description=
+Documentation=https://www.freedesktop.org/software/systemd/man/systemd.unit.html
+Documentation=https://www.freedesktop.org/software/systemd/man/systemd.service.html
+
+[Service]
+Type=simple
+ExecStart=
+
+[Install]
+WantedBy=multi-user.target
