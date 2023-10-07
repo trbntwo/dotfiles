@@ -5,7 +5,7 @@ my dotfiles
 ## start
 run in your `$HOME` directory:
 ```
-git clone https://github.com/trbntwo/dotfiles.git .dotfiles
+git clone git@github.com:trbntwo/dotfiles.git .dotfiles
 ```
 ```
 cd .dotfiles/
