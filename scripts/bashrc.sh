@@ -18,3 +18,7 @@ export PATH
 if [ -f ~/.dotfiles/scripts/aliases.sh ]; then
 	. ~/.dotfiles/scripts/aliases.sh
 fi
+
+if [ -f ~/.dotfiles/scripts/env.sh ]; then
+	. ~/.dotfiles/scripts/env.sh
+fi
