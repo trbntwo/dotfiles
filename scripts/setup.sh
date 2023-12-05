@@ -1,8 +1,9 @@
 #!/usr/bin/bash
 
-###########
-## $HOME ##
-###########
+
+############
+## $HOME: ##
+############
 
 # bash
 if [ -f ~/.bashrc ]; then
@@ -24,7 +25,6 @@ templates(){
 	ln -sf ~/.dotfiles/templates/toml-file.toml ~/$TEMPLATE_DIRECTORY/toml-file.toml
 	ln -sf ~/.dotfiles/templates/yaml-file.yaml ~/$TEMPLATE_DIRECTORY/yaml-file.yaml
 }
-
 case $LANG in
     de_DE.UTF-8)
 		TEMPLATE_DIRECTORY="Vorlagen"
@@ -44,9 +44,10 @@ if [ ! -d ~/.ssh ]; then
 fi
 ln -sf ~/.dotfiles/ssh/config ~/.ssh/config
 
-######################
-## $XDG_CONFIG_HOME ##
-######################
+
+#######################
+## $XDG_CONFIG_HOME: ##
+#######################
 
 # git
 if [ ! -d ~/.config/git ]; then

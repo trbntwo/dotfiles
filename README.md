@@ -11,16 +11,13 @@ git clone git@github.com:trbntwo/dotfiles.git .dotfiles
 cd .dotfiles/
 ```
 ```
-chmod u+x setup.sh
+chmod u+x dotfiles.sh
 ```
 ```
-./setup.sh
+./dotfiles.sh setup -c          # for client (desktop pc), -s for server, -d for dev container
 ```
 
 to revert:
 ```
-chmod u+x reset.sh
-```
-```
-./reset.sh
+./reset.sh reset -c             # for client (desktop pc), -s for server, -d for dev container
 ```
