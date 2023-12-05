@@ -18,6 +18,14 @@
 ########## user specific environment: ##########
 ################################################
 
+# source system bash config
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+if [ -f /etc/bash.bashrc ]; then
+	. /etc/bash.bashrc
+fi
+
 # add user specific bin directory to PATH
 if ! [[ "$PATH" =~ "$HOME/.local/bin:" ]]; then
     PATH="$HOME/.local/bin:$PATH"
