@@ -19,5 +19,5 @@ chmod u+x dotfiles.sh
 
 to revert:
 ```
-./dotfiles.sh reset -c             # for client (desktop pc), -s for server, -d for dev container
+./dotfiles.sh reset -c          # for client (desktop pc), -s for server, -d for dev container
 ```
